@@ -11,8 +11,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KotlinFlowAndroidDemo"
         tools:targetApi="31">
+
+        <!-- Ex1_HelloWorldActivity -->
+        <!-- Ex2_FlowBuildersActivity -->
+        <!-- SingleTaskActivity-->
+        <!-- TwoTaskActivity-->
         <activity
-            android:name=".MainActivity"
+            android:name=".twotasks.TwoTaskActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

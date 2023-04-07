@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btnFlowOf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="funflowOf"
+        android:text="using flowOf" />
+    <Button
+        android:id="@+id/btnasFlow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="funasFlow"
+        android:text="using asFlow" />
+    <Button
+        android:id="@+id/btnFlow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="funFlow"
+        android:text="using Flow" />
+    <Button
+        android:id="@+id/btnChannelFlow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="funChannelFlow"
+        android:text="using ChannelFlow" />
+    <Button
+        android:id="@+id/btnChannelFlowflowOn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="funChannelFlowflowOn"
+        android:text="using ChannelFlow with flowOn" />
+    <Button
+        android:id="@+id/btnRealtimeExs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="funRealtimeExamples"
+        android:text="Realtime examples" />
+</LinearLayout>
