@@ -14,10 +14,10 @@
 
         <!-- Ex1_HelloWorldActivity -->
         <!-- Ex2_FlowBuildersActivity -->
-        <!-- SingleTaskActivity-->
-        <!-- TwoTaskActivity-->
+        <!-- SingleTaskActivity -->
+        <!-- TwoTaskActivity -->
         <activity
-            android:name=".twotasks.TwoTaskActivity"
+            android:name=".callbackapi.CallBackEditTextActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
